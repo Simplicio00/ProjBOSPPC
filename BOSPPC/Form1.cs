@@ -38,7 +38,7 @@ namespace BOSPPC
 
 				Entrance1.Text = stg.ToString();
 			}
-			catch (Exception ex)
+			catch (Exception)
 			{
 				Entrance1.Text = "Nenhuma rodada cadastrada foi encontrada";
 			}

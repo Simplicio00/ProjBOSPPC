@@ -18,7 +18,7 @@ namespace BOSPPC.Utils
 		public static Usuario RodadaOficial { get; set; }
 		public static List<Usuario> Postulantes { get; set; }
 		
-		internal void InsertToDatabase(Usuario user)
+		internal List<Usuario> InsertToDatabase(Usuario user)
 		{
 			if (!File.Exists(DBAddress)) File.Create(DBAddress).Close();
 
@@ -28,24 +28,35 @@ namespace BOSPPC.Utils
 				RodadaOficial = user;
 			}
 
+			var usuarios = File.ReadAllText(DBAddress);
+			var objetos = JsonConvert.DeserializeObject<List<Usuario>>(usuarios);
+			var userRanking = objetos?.FirstOrDefault(x => x.NomeUsuario == user.NomeUsuario);
+
 			if (!ValidaRodadaOficial(user))
 			{
-				var userRanking = ExisteNoRanking(user);
-
+				
 				if (userRanking != null)
 				{
 					user.Rodadas.AddRange(userRanking.Rodadas);
 					user.Resultados = userRanking.Resultados;
 					user.Pontos = userRanking.Pontos;
 					user.Placares = userRanking.Placares;
+
+					objetos.RemoveAll(x => x.NomeUsuario == userRanking.NomeUsuario);
 				}
 
-				RealizaAuditoriaDosPontos(user);
+				if (objetos == null)
+				{
+					objetos = new List<Usuario>();
+				}
+
+				objetos.Add(RealizaAuditoriaDosPontos(user));
 
 				Postulantes.Add(user);
 
 			}
 
+			return objetos;
 		}
 
 		private Usuario RealizaAuditoriaDosPontos(Usuario user)
@@ -105,29 +116,14 @@ namespace BOSPPC.Utils
 			return false;
 		}
 
-		private Usuario ExisteNoRanking(Usuario user)
-		{
-			try
-			{
-				var objetos = JsonConvert.DeserializeObject<List<Usuario>>(DBAddress);
-
-				return objetos?.FirstOrDefault(x => x.NomeUsuario == user.NomeUsuario);
-			}
-			catch (Exception)
-			{
-				return null;
-			}
-		}
-
 		internal KeyValuePair<int, string> GerarRelatorio()
 		{
 			var arquivo = File.ReadAllText(DBAddress);
 
 			var objetos = JsonConvert.DeserializeObject<List<Usuario>>(arquivo);
-			var objetosRodada = objetos.Where(x => x.Rodadas.LastOrDefault().Numero_Rodada == RodadaOficial.Rodadas.LastOrDefault().Numero_Rodada);
-
+			var objetosRodada = objetos.Where(x => x.Rodadas.Any(a => a.Numero_Rodada == RodadaOficial.Rodadas.LastOrDefault().Numero_Rodada)).ToList();
 			var pontosTotalRodada = objetosRodada.Select(x => x.Rodadas.LastOrDefault().PartidasRodada.Sum(a => a.PontoColetado)).Sum();
-			var media = pontosTotalRodada / objetosRodada.ToList().Count;
+			var media = pontosTotalRodada / objetosRodada.Count;
 
 			var informacoesCampeonato = objetos.Select(x => new { x.Pontos, usuario = x.NomeUsuario,  x.Placares, x.Resultados }).OrderByDescending(x => x.Pontos).OrderByDescending(x => x.Placares).ToList();
 			var pontuadoresRodada = objetosRodada.Select(x => new { x.Pontos, usuario = x.NomeUsuario }).OrderByDescending(x => x.Pontos).ToList();

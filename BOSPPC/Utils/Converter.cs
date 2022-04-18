@@ -124,13 +124,11 @@ namespace WinAPP.Utils
 
 			usuarios.ForEach(x =>
 			{
-				db1.InsertToDatabase(x);
+				var objetos = db1.InsertToDatabase(x);
+				var objAtualizado = JsonConvert.SerializeObject(objetos);
+
+				File.WriteAllText(Database.DBAddress, objAtualizado);
 			});
-
-			var objetoSerializado = JsonConvert.SerializeObject(Database.Postulantes);
-
-			File.WriteAllText(Database.DBAddress, objetoSerializado);
-
 		}
 
 		private static PartF PreencheRodada(string item, int sequencia, int indice, RichTextBox log, Usuario usuario, Rodada rodada)
