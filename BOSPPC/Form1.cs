@@ -27,6 +27,14 @@ namespace BOSPPC
 		{
 			try
 			{
+				var dinfo = Directory.GetCurrentDirectory() + "//Database//db1.json";
+
+				if (!File.Exists(dinfo))
+				{
+					Directory.CreateDirectory(Directory.GetCurrentDirectory() + "//Database");
+					File.Create(dinfo);
+				}
+
 				var stg = new StringBuilder();
 				var obj = File.ReadAllText(Database.DBAddress);
 				var rodadas = JsonConvert.DeserializeObject<List<Usuario>>(obj).OrderByDescending(x => x.Rodadas.Count).First().Rodadas;
@@ -42,7 +50,7 @@ namespace BOSPPC
 			{
 				Entrance1.Text = "Nenhuma rodada cadastrada foi encontrada";
 			}
-			
+
 		}
 
 		private void button1_Click(object sender, EventArgs e)
@@ -56,6 +64,7 @@ namespace BOSPPC
 
 				OpenFileDialog opf = new OpenFileDialog();
 				var cvt = new Converter();
+				var dba = new Database();
 
 				if (opf.ShowDialog() == DialogResult.OK)
 				{
@@ -71,6 +80,11 @@ namespace BOSPPC
 					else
 					{
 						var resultado = File.ReadAllLines(opf.FileName);
+
+						int.TryParse(ptAutomatico.Text, out var dec);
+
+						Database.BonusRodada = dec;
+
 						cvt.AdicionaDataCampo(Entrance1, resultado);
 					}
 				}
@@ -135,6 +149,24 @@ namespace BOSPPC
 			catch (Exception ex)
 			{
 				Entrance1.AppendNewText(ex.Message, Color.Red);
+			}
+
+		}
+
+		private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+			{
+				e.Handled = true;
+			}
+			else if (ptAutomatico.Text.Trim().Length >= 1)
+			{
+				e.Handled = true;
+			}
+
+			if (e.KeyChar == '\b')
+			{
+				e.Handled = false;
 			}
 
 		}

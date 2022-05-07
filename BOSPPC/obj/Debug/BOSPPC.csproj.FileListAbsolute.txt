@@ -34,3 +34,7 @@ C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.csproj.CoreCompil
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.csproj.CopyComplete
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.exe
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.pdb
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\BOSPPC.exe.manifest
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\BOSPPC.application
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.exe.manifest
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.application

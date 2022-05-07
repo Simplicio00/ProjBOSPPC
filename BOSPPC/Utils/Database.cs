@@ -9,6 +9,8 @@ using System.IO;
 using System.Data;
 using BOSPPC.Models;
 using Newtonsoft.Json;
+using System.Drawing;
+
 
 namespace BOSPPC.Utils
 {
@@ -17,6 +19,7 @@ namespace BOSPPC.Utils
 		public static string DBAddress { get => Directory.GetCurrentDirectory() + "//Database//db1.json"; }
 		public static Usuario RodadaOficial { get; set; }
 		public static List<Usuario> Postulantes { get; set; }
+		public static int BonusRodada { get; set; } 
 		
 		internal List<Usuario> InsertToDatabase(Usuario user)
 		{
@@ -34,26 +37,20 @@ namespace BOSPPC.Utils
 
 			if (!ValidaRodadaOficial(user))
 			{
-				
 				if (userRanking != null)
 				{
 					user.Rodadas.AddRange(userRanking.Rodadas);
+					user.Rodadas = user.Rodadas.OrderBy(a => a.Numero_Rodada).ToList();
 					user.Resultados = userRanking.Resultados;
 					user.Pontos = userRanking.Pontos;
 					user.Placares = userRanking.Placares;
-
 					objetos.RemoveAll(x => x.NomeUsuario == userRanking.NomeUsuario);
 				}
 
-				if (objetos == null)
-				{
-					objetos = new List<Usuario>();
-				}
-
+				if (objetos == null) objetos = new List<Usuario>();
+				
 				objetos.Add(RealizaAuditoriaDosPontos(user));
-
 				Postulantes.Add(user);
-
 			}
 
 			return objetos;
@@ -96,6 +93,11 @@ namespace BOSPPC.Utils
 				});
 
 				user.Rodadas[user.Rodadas.Count - 1].PartidasRodada = jogosContabilizados;
+
+				if (BonusRodada > 0)
+				{
+					user.Pontos += BonusRodada;
+				}
 			}
 
 			return user;
@@ -121,12 +123,18 @@ namespace BOSPPC.Utils
 			var arquivo = File.ReadAllText(DBAddress);
 
 			var objetos = JsonConvert.DeserializeObject<List<Usuario>>(arquivo);
-			var objetosRodada = objetos.Where(x => x.Rodadas.Any(a => a.Numero_Rodada == RodadaOficial.Rodadas.LastOrDefault().Numero_Rodada)).ToList();
+			var objetosRodada = objetos.Where(x => x.Rodadas.Exists(a => a.Numero_Rodada == RodadaOficial.Rodadas.LastOrDefault().Numero_Rodada)).ToList();
 			var pontosTotalRodada = objetosRodada.Select(x => x.Rodadas.LastOrDefault().PartidasRodada.Sum(a => a.PontoColetado)).Sum();
-			var media = pontosTotalRodada / objetosRodada.Count;
+			var media = (pontosTotalRodada / objetosRodada.Count);
 
-			var informacoesCampeonato = objetos.Select(x => new { x.Pontos, usuario = x.NomeUsuario,  x.Placares, x.Resultados }).OrderByDescending(x => x.Pontos).OrderByDescending(x => x.Placares).ToList();
-			var pontuadoresRodada = objetosRodada.Select(x => new { x.Pontos, usuario = x.NomeUsuario }).OrderByDescending(x => x.Pontos).ToList();
+			var informacoesCampeonato = objetos.Select(x => new { x.Pontos, usuario = x.NomeUsuario,  x.Placares, x.Resultados }).OrderByDescending(x => x.Pontos).ToList();
+			
+			var pontuadoresRodada = objetosRodada.Select(x => new { 
+																				placares = x.Rodadas.LastOrDefault().PartidasRodada.Where(a => a.PontoColetado == 3).Count(), 
+																				resultados = x.Rodadas.LastOrDefault().PartidasRodada.Where(a => a.PontoColetado == 1).Count(),
+																				pontos = x.Rodadas.LastOrDefault().PartidasRodada.Sum(a => a.PontoColetado), 
+																				usuario = x.NomeUsuario }).OrderByDescending(x => x.pontos).ToList();
+			
 			var porPlacar = objetos.Select(x => new { x.Placares, usuario = x.NomeUsuario }).OrderByDescending(x => x.Placares).ToList();
 			var porResultados = objetos.Select(x => new { x.Resultados, usuario = x.NomeUsuario }).OrderByDescending(x => x.Resultados).ToList();
 
@@ -140,9 +148,28 @@ namespace BOSPPC.Utils
 			stg.Append("\n");
 			stg.AppendLine(" MEDIA: " + media);
 			stg.Append("\n");
+			stg.Append("\n");
+			stg.Append("\n");
+			stg.AppendLine("PONTUADORES DA RODADA");
+			stg.Append("\n");
+			stg.Append("\n");
+
+			if (BonusRodada > 0)
+			{
+				stg.AppendLine($"Obs: Adicionado(s) {BonusRodada} ponto(s) para quem postou");
+			}
+
+			stg.AppendLine("[spoiler]");
+			pontuadoresRodada.ForEach(x => 
+			{
+				stg.AppendLine($"{x.usuario} - {x.pontos} - {x.placares} - {x.resultados}");
+			});
+			stg.AppendLine("[/spoiler]");
+			stg.Append("\n");
+			stg.Append("\n");
 			stg.AppendLine("RANKING");
 			stg.Append("\n");
-			//stg.AppendLine("POSICAO - NOME - PONTOS - PLACARES - RESULTADOS");
+			stg.AppendLine("(PONTUAÇÃO - PLACARES - RESULTADOS)");
 			stg.Append("\n");
 			stg.Append("\n");
 
@@ -151,16 +178,6 @@ namespace BOSPPC.Utils
 				stg.AppendLine($" {i+1} - {informacoesCampeonato[i].usuario} - {informacoesCampeonato[i].Pontos} - {informacoesCampeonato[i].Placares} - {informacoesCampeonato[i].Resultados} ");
 			}
 
-			stg.Append("\n");
-			stg.Append("\n");
-			stg.AppendLine("PONTUADORES DA RODADA");
-			stg.Append("\n");
-			stg.Append("\n");
-
-			pontuadoresRodada.ForEach(x => 
-			{
-				stg.AppendLine(x.usuario + " - " + x.Pontos);
-			});
 			stg.Append("\n");
 			stg.Append("\n");
 
