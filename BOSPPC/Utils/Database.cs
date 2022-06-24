@@ -162,7 +162,7 @@ namespace BOSPPC.Utils
 			stg.AppendLine("[spoiler]");
 			pontuadoresRodada.ForEach(x => 
 			{
-				stg.AppendLine($"{x.usuario} - {x.pontos} - {x.placares} - {x.resultados}");
+				stg.AppendLine($"{x.usuario} - {x.pontos + BonusRodada} - {x.placares} - {x.resultados}");
 			});
 			stg.AppendLine("[/spoiler]");
 			stg.Append("\n");

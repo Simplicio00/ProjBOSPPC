@@ -13,6 +13,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinAPP.Utils;
+using Microsoft.VisualBasic;
 
 namespace BOSPPC
 {
@@ -38,6 +39,11 @@ namespace BOSPPC
 				var stg = new StringBuilder();
 				var obj = File.ReadAllText(Database.DBAddress);
 				var rodadas = JsonConvert.DeserializeObject<List<Usuario>>(obj).OrderByDescending(x => x.Rodadas.Count).First().Rodadas;
+
+				if (rodadas.Any())
+				{
+					relatorioBtn.Visible = true;
+				}
 
 				foreach (var rodada in rodadas)
 				{
@@ -79,9 +85,13 @@ namespace BOSPPC
 					}
 					else
 					{
+						var ptAutomatico = Interaction.InputBox("\n- Número de jogos adiados e/ou adiantados da rodada. \n- Para cada jogo adiado/adiantado, haverá o acrescento de 1 ponto para os participantes da rodada. \n- \n", "PARTIDA ADIADA/ADIANTADA?", "0");
 						var resultado = File.ReadAllLines(opf.FileName);
 
-						int.TryParse(ptAutomatico.Text, out var dec);
+						if (!int.TryParse(ptAutomatico, out var dec) || ptAutomatico.Length != 1)
+						{
+							return;
+						}
 
 						Database.BonusRodada = dec;
 
@@ -153,22 +163,22 @@ namespace BOSPPC
 
 		}
 
-		private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
-		{
-			if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
-			{
-				e.Handled = true;
-			}
-			else if (ptAutomatico.Text.Trim().Length >= 1)
-			{
-				e.Handled = true;
-			}
+		//private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+		//{
+		//	if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+		//	{
+		//		e.Handled = true;
+		//	}
+		//	else if (ptAutomatico.Text.Trim().Length >= 1)
+		//	{
+		//		e.Handled = true;
+		//	}
 
-			if (e.KeyChar == '\b')
-			{
-				e.Handled = false;
-			}
+		//	if (e.KeyChar == '\b')
+		//	{
+		//		e.Handled = false;
+		//	}
 
-		}
+		//}
 	}
 }

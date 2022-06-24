@@ -26,7 +26,6 @@ C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.csprojAssemblyReference.cache
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.central1.resources
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.Properties.Resources.resources
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.csproj.GenerateResource.cache
@@ -38,3 +37,4 @@ C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\BOSPPC.exe.manifest
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\BOSPPC.application
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.exe.manifest
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.application
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.csproj.AssemblyReference.cache

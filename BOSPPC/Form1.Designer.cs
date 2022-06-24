@@ -34,8 +34,6 @@ namespace BOSPPC
 			this.Entrance1 = new System.Windows.Forms.RichTextBox();
 			this.relatorioBtn = new System.Windows.Forms.Button();
 			this.removedbBtn = new System.Windows.Forms.Button();
-			this.ptAutomatico = new System.Windows.Forms.TextBox();
-			this.label1 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// button1
@@ -57,7 +55,7 @@ namespace BOSPPC
 			// 
 			this.Entrance1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.Entrance1.Enabled = false;
-			this.Entrance1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.Entrance1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Entrance1.Location = new System.Drawing.Point(12, 12);
 			this.Entrance1.Name = "Entrance1";
 			this.Entrance1.ReadOnly = true;
@@ -87,35 +85,12 @@ namespace BOSPPC
 			this.removedbBtn.UseVisualStyleBackColor = true;
 			this.removedbBtn.Click += new System.EventHandler(this.removedbBtn_Click);
 			// 
-			// ptAutomatico
-			// 
-			this.ptAutomatico.AccessibleDescription = "Pontos para jogo adiado";
-			this.ptAutomatico.Location = new System.Drawing.Point(109, 375);
-			this.ptAutomatico.Name = "ptAutomatico";
-			this.ptAutomatico.Size = new System.Drawing.Size(19, 20);
-			this.ptAutomatico.TabIndex = 4;
-			this.ptAutomatico.Tag = "";
-			this.ptAutomatico.Text = "0";
-			this.ptAutomatico.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.ptAutomatico.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
-			// 
-			// label1
-			// 
-			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(13, 379);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(90, 13);
-			this.label1.TabIndex = 5;
-			this.label1.Text = "Ponto automatico";
-			// 
 			// central1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.AutoScroll = true;
 			this.ClientSize = new System.Drawing.Size(291, 404);
-			this.Controls.Add(this.label1);
-			this.Controls.Add(this.ptAutomatico);
 			this.Controls.Add(this.removedbBtn);
 			this.Controls.Add(this.relatorioBtn);
 			this.Controls.Add(this.Entrance1);
@@ -127,7 +102,6 @@ namespace BOSPPC
 			this.Text = "BOSPPC";
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.ResumeLayout(false);
-			this.PerformLayout();
 
 		}
 
@@ -138,8 +112,6 @@ namespace BOSPPC
 		private System.Windows.Forms.RichTextBox Entrance1;
 		private System.Windows.Forms.Button relatorioBtn;
 		private System.Windows.Forms.Button removedbBtn;
-		private System.Windows.Forms.TextBox ptAutomatico;
-		private System.Windows.Forms.Label label1;
 	}
 }
 
