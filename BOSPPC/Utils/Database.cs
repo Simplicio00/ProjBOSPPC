@@ -123,7 +123,25 @@ namespace BOSPPC.Utils
 			var arquivo = File.ReadAllText(DBAddress);
 
 			var objetos = JsonConvert.DeserializeObject<List<Usuario>>(arquivo);
-			var objetosRodada = objetos.Where(x => x.Rodadas.Exists(a => a.Numero_Rodada == RodadaOficial.Rodadas.LastOrDefault().Numero_Rodada)).ToList();
+
+			List<Usuario> objetosRodada = new List<Usuario>();
+
+
+			//melhora para o futuro
+			//if (RodadaOficial.Rodadas.Any())
+			//{
+			//	objetosRodada = objetos.Where(x => x.Rodadas.Exists(a => a.Numero_Rodada == RodadaOficial.Rodadas.LastOrDefault().Numero_Rodada)).ToList();
+			//}
+			//else
+			//{
+			//	//terminar
+			//	var rodadas = objetos.Select(x => x.Rodadas.Select(a => a.Numero_Rodada).ToList()).FirstOrDefault();
+			//}
+
+
+			objetosRodada = objetos.Where(x => x.Rodadas.Exists(a => a.Numero_Rodada == RodadaOficial.Rodadas.LastOrDefault().Numero_Rodada)).ToList();
+
+
 			var pontosTotalRodada = objetosRodada.Select(x => x.Rodadas.LastOrDefault().PartidasRodada.Sum(a => a.PontoColetado)).Sum();
 			var media = (pontosTotalRodada / objetosRodada.Count);
 

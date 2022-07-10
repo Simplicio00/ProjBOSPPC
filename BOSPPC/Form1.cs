@@ -40,10 +40,10 @@ namespace BOSPPC
 				var obj = File.ReadAllText(Database.DBAddress);
 				var rodadas = JsonConvert.DeserializeObject<List<Usuario>>(obj).OrderByDescending(x => x.Rodadas.Count).First().Rodadas;
 
-				if (rodadas.Any())
-				{
-					relatorioBtn.Visible = true;
-				}
+				//if (rodadas.Any())
+				//{
+				//	relatorioBtn.Visible = true;
+				//}
 
 				foreach (var rodada in rodadas)
 				{
