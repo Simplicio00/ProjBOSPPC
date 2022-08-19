@@ -38,3 +38,13 @@ C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\BOSPPC.application
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.exe.manifest
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.application
 C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\obj\Debug\BOSPPC.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\Extensions\RichTextBoxExtensions.cs
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\Models\Bolao.cs
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\Models\BosPP.cs
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\Models\PartF.cs
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\Models\Rodada.cs
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\Models\Usuario.cs
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\Utils\Converter.cs
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\Utils\Database.cs
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\Utils\UnifiedTest.cs
+C:\Users\Acer\Desktop\BOSPP\ProjBOSPPC\BOSPPC\bin\Debug\Utils\Validations.cs

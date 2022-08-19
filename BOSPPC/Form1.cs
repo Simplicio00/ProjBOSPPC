@@ -24,10 +24,19 @@ namespace BOSPPC
 			InitializeComponent();
 		}
 
+		public enum TipoVelocidade
+		{
+			Normal = 0,
+			Acelerada = 1
+		};
+
 		private void Form1_Load(object sender, EventArgs e)
 		{
 			try
 			{
+				Array velocidadeConversaoTipos = Enum.GetValues(typeof(TipoVelocidade));
+				velocidadeConversaoOpt.DataSource = velocidadeConversaoTipos;
+
 				var dinfo = Directory.GetCurrentDirectory() + "//Database//db1.json";
 
 				if (!File.Exists(dinfo))
@@ -68,6 +77,8 @@ namespace BOSPPC
 
 				Entrance1.Clear();
 
+				var velocidadeConv = velocidadeConversaoOpt.SelectedIndex;
+
 				OpenFileDialog opf = new OpenFileDialog();
 				var cvt = new Converter();
 				var dba = new Database();
@@ -95,7 +106,7 @@ namespace BOSPPC
 
 						Database.BonusRodada = dec;
 
-						cvt.AdicionaDataCampo(Entrance1, resultado);
+						cvt.AdicionaDataCampo(Entrance1, resultado, velocidadeConv);
 					}
 				}
 
@@ -160,6 +171,11 @@ namespace BOSPPC
 			{
 				Entrance1.AppendNewText(ex.Message, Color.Red);
 			}
+
+		}
+
+		private void velocidadeConversaoOpt_SelectedIndexChanged(object sender, EventArgs e)
+		{
 
 		}
 

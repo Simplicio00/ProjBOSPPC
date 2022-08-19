@@ -34,6 +34,7 @@ namespace BOSPPC
 			this.Entrance1 = new System.Windows.Forms.RichTextBox();
 			this.relatorioBtn = new System.Windows.Forms.Button();
 			this.removedbBtn = new System.Windows.Forms.Button();
+			this.velocidadeConversaoOpt = new System.Windows.Forms.ComboBox();
 			this.SuspendLayout();
 			// 
 			// button1
@@ -85,6 +86,16 @@ namespace BOSPPC
 			this.removedbBtn.UseVisualStyleBackColor = true;
 			this.removedbBtn.Click += new System.EventHandler(this.removedbBtn_Click);
 			// 
+			// velocidadeConversaoOpt
+			// 
+			this.velocidadeConversaoOpt.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.velocidadeConversaoOpt.Location = new System.Drawing.Point(12, 371);
+			this.velocidadeConversaoOpt.Name = "velocidadeConversaoOpt";
+			this.velocidadeConversaoOpt.Size = new System.Drawing.Size(116, 21);
+			this.velocidadeConversaoOpt.TabIndex = 4;
+			this.velocidadeConversaoOpt.TabStop = false;
+			this.velocidadeConversaoOpt.SelectedIndexChanged += new System.EventHandler(this.velocidadeConversaoOpt_SelectedIndexChanged);
+			// 
 			// central1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -95,6 +106,7 @@ namespace BOSPPC
 			this.Controls.Add(this.relatorioBtn);
 			this.Controls.Add(this.Entrance1);
 			this.Controls.Add(this.button1);
+			this.Controls.Add(this.velocidadeConversaoOpt);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
@@ -112,6 +124,7 @@ namespace BOSPPC
 		private System.Windows.Forms.RichTextBox Entrance1;
 		private System.Windows.Forms.Button relatorioBtn;
 		private System.Windows.Forms.Button removedbBtn;
+		private System.Windows.Forms.ComboBox velocidadeConversaoOpt;
 	}
 }
 
