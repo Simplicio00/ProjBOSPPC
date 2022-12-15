@@ -1,0 +1,180 @@
+01_31_NOME_SISTEMA
+Santos 4 X 1 Juventude
+Atlético-GO 1 X 1 Palmeiras
+Atlético-MG 0 X 0 Ceará
+Coritiba 2 X 1 Red Bull Bragantino
+Fluminense 0 X 2 América-MG
+Fortaleza 2 X 0 Avaí
+São Paulo 0 X 1 Botafogo
+Internacional 4 X 2 Goiás
+Corinthians 2 X 1 Athletico-PR
+Cuiabá 1 X 2 Flamengo
+
+02_31_NOME_Havokdan
+Santos 2 X 0 Juventude
+Atlético-GO 0 X 2 Palmeiras
+Atlético-MG 2 X 1 Ceará
+Coritiba 0 X 0 Red Bull Bragantino
+Fluminense 1 X 1 América-MG
+Fortaleza 1 X 0 Avaí
+São Paulo 2 X 2 Botafogo
+Internacional 2 X 1 Goiás
+Corinthians 0 X 0 Athletico-PR
+Cuiabá 0 X 1 Flamengo
+
+02_31_NOME_thebigkratos
+Santos 3 X 0 Juventude
+Atlético-GO 1 X 2 Palmeiras
+Atlético-MG 2 X 1 Ceará
+Coritiba 1 X 0 Red Bull Bragantino
+Fluminense 2 X 0 América-MG
+Fortaleza 4 X 0 Avaí
+São Paulo 0 X 0 Botafogo
+Internacional 2 X 2 Goiás
+Corinthians 1 X 1 Athletico-PR
+Cuiabá 0 X 2 Flamengo
+
+02_31_NOME_igraum
+Santos 2 X 0 Juventude
+Atlético-GO 1 X 1 Palmeiras
+Atlético-MG 2 X 1 Ceará
+Coritiba 3 X 2 Red Bull Bragantino
+Fluminense 1 X 0 América-MG
+Fortaleza 2 X 1 Avaí
+São Paulo 1 X 1 Botafogo
+Internacional 2 X 0 Goiás
+Corinthians 1 X 1 Athletico-PR
+Cuiabá 2 X 1 Flamengo
+
+02_31_NOME_dotrief kolnit
+Santos 2 X 0 Juventude
+Atlético-GO 1 X 1 Palmeiras
+Atlético-MG 2 X 0 Ceará
+Coritiba 1 X 1 Red Bull Bragantino
+Fluminense 1 X 0 América-MG
+Fortaleza 2 X 0 Avaí
+São Paulo 2 X 1 Botafogo
+Internacional 1 X 0 Goiás
+Corinthians 1 X 1 Athletico-PR
+Cuiabá 1 X 2 Flamengo
+
+02_31_NOME_Vei pescador
+Santos 1 X 0 Juventude
+Atlético-GO 1 X 2 Palmeiras
+Atlético-MG 3 X 0 Ceará
+Coritiba 1 X 0 Red Bull Bragantino
+Fluminense 1 X 0 América-MG
+Fortaleza 2 X 0 Avaí
+São Paulo 2 X 2 Botafogo
+Internacional 1 X 1 Goiás
+Corinthians 1 X 0 Athletico-PR
+Cuiabá 2 X 2 Flamengo
+
+02_31_NOME_Peart
+Santos 3 X 1 Juventude
+Atlético-GO 0 X 4 Palmeiras
+Atlético-MG 3 X 1 Ceará
+Coritiba 2 X 2 Red Bull Bragantino
+Fluminense 2 X 1 América-MG
+Fortaleza 3 X 0 Avaí
+São Paulo 3 X 1 Botafogo
+Internacional 2 X 0 Goiás
+Corinthians 1 X 1 Athletico-PR
+Cuiabá 1 X 1 Flamengo
+
+02_31_NOME_Ging Freecs1
+Santos 2 X 1 Juventude
+Atlético-GO 0 X 2 Palmeiras
+Atlético-MG 3 X 1 Ceará
+Coritiba 2 X 1 Red Bull Bragantino
+Fluminense 2 X 1 América-MG
+Fortaleza 3 X 0 Avaí
+São Paulo 2 X 1 Botafogo
+Internacional 2 X 0 Goiás
+Corinthians 2 X 1 Athletico-PR
+Cuiabá 1 X 2 Flamengo
+
+02_31_NOME_yage
+Santos 2 X 0 Juventude
+Atlético-GO 1 X 1 Palmeiras
+Atlético-MG 2 X 0 Ceará
+Coritiba 1 X 0 Red Bull Bragantino
+Fluminense 2 X 1 América-MG
+Fortaleza 2 X 0 Avaí
+São Paulo 2 X 1 Botafogo
+Internacional 2 X 0 Goiás
+Corinthians 1 X 0 Athletico-PR
+Cuiabá 1 X 1 Flamengo
+
+02_31_NOME_tortinhas10
+Santos 2 X 0 Juventude
+Atlético-GO 1 X 0 Palmeiras
+Atlético-MG 2 X 0 Ceará
+Coritiba 1 X 1 Red Bull Bragantino
+Fluminense 1 X 0 América-MG
+Fortaleza 1 X 0 Avaí
+São Paulo 1 X 0 Botafogo
+Internacional 1 X 0 Goiás
+Corinthians 1 X 0 Athletico-PR
+Cuiabá 0 X 2 Flamengo
+
+02_31_NOME_ptsousa
+Santos 1 X 1 Juventude
+Atlético-GO 1 X 3 Palmeiras
+Atlético-MG 2 X 2 Ceará
+Coritiba 1 X 0 Red Bull Bragantino
+Fluminense 1 X 1 América-MG
+Fortaleza 2 X 0 Avaí
+São Paulo 1 X 2 Botafogo
+Internacional 1 X 0 Goiás
+Corinthians 1 X 1 Athletico-PR
+Cuiabá 0 X 0 Flamengo
+
+02_31_NOME_kun
+Santos 3 X 0 Juventude
+Atlético-GO 0 X 2 Palmeiras
+Atlético-MG 2 X 0 Ceará
+Coritiba 1 X 2 Red Bull Bragantino
+Fluminense 1 X 0 América-MG
+Fortaleza 2 X 0 Avaí
+São Paulo 2 X 1 Botafogo
+Internacional 2 X 1 Goiás
+Corinthians 1 X 0 Athletico-PR
+Cuiabá 0 X 2 Flamengo
+
+02_31_NOME_redfield jr.
+Santos 1 X 0 Juventude
+Atlético-GO 1 X 2 Palmeiras
+Atlético-MG 2 X 1 Ceará
+Coritiba 1 X 1 Red Bull Bragantino
+Fluminense 2 X 0 América-MG
+Fortaleza 1 X 0 Avaí
+São Paulo 2 X 1 Botafogo
+Internacional 1 X 0 Goiás
+Corinthians 2 X 1 Athletico-PR
+Cuiabá 1 X 2 Flamengo
+
+02_31_NOME_NEOMATRIX
+Santos 1 X 1 Juventude
+Atlético-GO 1 X 2 Palmeiras
+Atlético-MG 2 X 2 Ceará
+Coritiba 1 X 1 Red Bull Bragantino
+Fluminense 1 X 0 América-MG
+Fortaleza 1 X 0 Avaí
+São Paulo 2 X 1 Botafogo
+Internacional 1 X 0 Goiás
+Corinthians 1 X 1 Athletico-PR
+Cuiabá 1 X 2 Flamengo
+
+02_31_NOME_Henrique_Beavis
+Santos 2 x 0 Juventude
+Atlético-GO 1 x 2 Palmeiras
+Atlético-MG 1 x 0 Ceará
+Coritiba 3 x 2 Red Bull Bragantino
+Fluminense 3 x 1 América Mineiro
+Fortaleza 1 x 0 Avaí
+São Paulo 2 x 0 Botafogo
+Internacional 2 x 0 Goiás
+Corinthians 2 x 2 Athletico-PR
+
+FIM

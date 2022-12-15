@@ -1,0 +1,148 @@
+01_37_NOME_SISTEMA
+São Paulo 0 X 1 Internacional
+Fluminense 3 X 0 Goiás
+Avaí 2 X 0 Ceará
+Coritiba 2 X 2 Corinthians
+Fortaleza 6 X 0 Red Bull Bragantino
+Palmeiras 2 X 1 América-MG
+Juventude 2 X 2 Flamengo
+Atlético-GO 1 X 1 Athletico-PR
+Atlético-MG 3 X 0 Cuiabá
+Botafogo 3 X 0 Santos
+
+02_37_NOME_Vei pescador
+São Paulo 1 X 2 Internacional
+Fluminense 2 X 0 Goiás
+Avaí 1 X 0 Ceará
+Coritiba 1 X 0 Corinthians
+Fortaleza 2 X 0 Red Bull Bragantino
+Palmeiras 2 X 1 América-MG
+Juventude 0 X 0 Flamengo
+Atlético-GO 1 X 0 Athletico-PR
+Atlético-MG 1 X 0 Cuiabá
+Botafogo 1 X 1 Santos
+
+02_37_NOME_igraum
+São Paulo 1 X 1 Internacional
+Fluminense 2 X 0 Goiás
+Avaí 2 X 1 Ceará
+Coritiba 2 X 1 Corinthians
+Fortaleza 1 X 0 Red Bull Bragantino
+Palmeiras 2 X 0 América-MG
+Juventude 0 X 1 Flamengo
+Atlético-GO 2 X 2 Athletico-PR
+Atlético-MG 2 X 0 Cuiabá
+Botafogo 1 X 1 Santos
+
+02_37_NOME_Havokdan
+São Paulo 0 X 1 Internacional
+Fluminense 3 X 0 Goiás
+Avaí 0 X 1 Ceará
+Coritiba 1 X 1 Corinthians
+Fortaleza 2 X 0 Red Bull Bragantino
+Palmeiras 2 X 1 América-MG
+Juventude 0 X 2 Flamengo
+Atlético-GO 1 X 0 Athletico-PR
+Atlético-MG 0 X 1 Cuiabá
+Botafogo 1 X 0 Santos
+
+02_37_NOME_kun
+São Paulo 1 X 2 Internacional
+Fluminense 2 X 0 Goiás
+Avaí 0 X 1 Ceará
+Coritiba 2 X 1 Corinthians
+Fortaleza 1 X 1 Red Bull Bragantino
+Palmeiras 2 X 1 América-MG
+Juventude 0 X 2 Flamengo
+Atlético-GO 1 X 1 Athletico-PR
+Atlético-MG 0 X 1 Cuiabá
+Botafogo 1 X 2 Santos
+
+02_37_NOME_Henrique_Beavis
+São Paulo 1 x 2 Internacional
+Fluminense 2 x 0 Goiás
+Avaí 1 x 1 Ceará
+Coritiba 1 x 0 Corinthians
+Fortaleza 3 x 0 RB Bragantino
+Palmeiras 2 x 0 América-MG
+Juventude 1 x 4 Flamengo
+Atlético Goianiense 1 x 1 Athletico Paranaense
+Atlético Mineiro 1 x 1 Cuiabá
+Botafogo 0 x 1 Santos
+
+02_37_NOME_Peart
+Fluminense 3 x 1 Goiás
+Avaí 1 x 1 Ceará
+Coritiba 2 x 1 Corinthians
+Fortaleza 4 x 1 RB Bragantino
+Palmeiras 2 x 2 América-MG
+Juventude 1 x 2 Flamengo
+Atlético Goianiense 1 x 2 Athletico Paranaense
+Atlético Mineiro 2 x 2 Cuiabá
+Botafogo 1 x 2 Santos
+
+02_37_NOME_ptsousa
+Fluminense 3 x 1 Goiás
+Avaí 1 x 1 Ceará
+Coritiba 1 x 2 Corinthians
+Fortaleza 3 x 1 RB Bragantino
+Palmeiras 4 x 2 América-MG
+Juventude 1 x 2 Flamengo
+Atlético Goianiense 1 x 1 Athletico Paranaense
+Atlético Mineiro 2 x 2 Cuiabá
+Botafogo 1 x 0 Santos
+
+02_37_NOME_thebigkratos
+Fluminense 3 x 1 Goiás
+Avaí 0 x 0 Ceará
+Coritiba 1 x 1 Corinthians
+Fortaleza 2 x 1 RB Bragantino
+Palmeiras 2 x 0 América-MG
+Juventude 1 x 3 Flamengo
+Atlético Goianiense 0 x 1 Athletico Paranaense
+Atlético Mineiro 3 x 0 Cuiabá
+Botafogo 1 x 0 Santos
+
+02_37_NOME_yage
+São Paulo 1 X 0 Internacional
+Fluminense 2 X 0 Goiás
+Avaí 1 X 0 Ceará
+Coritiba 1 X 0 Corinthians
+Fortaleza 1 X 0 Red Bull Bragantino
+Palmeiras 2 X 1 América-MG
+Juventude 1 X 1 Flamengo
+Atlético-GO 1 X 0 Athletico-PR
+Atlético-MG 2 X 1 Cuiabá
+Botafogo 2 X 1 Santos
+
+02_37_NOME_tortinhas10
+Fluminense 2 X 0 Goiás
+Avaí 1 X 0 Ceará
+Coritiba 1 X 1 Corinthians
+Fortaleza 1 X 0 Red Bull Bragantino
+Palmeiras 2 X 0 América-MG
+Juventude 0 X 1 Flamengo
+Atlético-GO 1 X 1 Athletico-PR
+Atlético-MG 1 X 0 Cuiabá
+Botafogo 1 X 0 Santos
+
+02_37_NOME_redfield jr.
+Fluminense 1 X 0 Goiás
+Avaí 1 X 0 Ceará
+Coritiba 1 X 2 Corinthians
+Fortaleza 1 X 0 Red Bull Bragantino
+Palmeiras 2 X 1 América-MG
+Juventude 0 X 2 Flamengo
+Atlético-GO 1 X 1 Athletico-PR
+Atlético-MG 2 X 0 Cuiabá
+Botafogo 2 X 1 Santos
+
+02_37_NOME_dotrief kolnit
+Fortaleza 1 X 0 Red Bull Bragantino
+Palmeiras 1 X 0 América-MG
+Juventude 0 X 2 Flamengo
+Atlético-GO 1 X 0 Athletico-PR
+Atlético-MG 1 X 0 Cuiabá
+Botafogo 2 X 1 Santos
+
+FIM

@@ -1,0 +1,208 @@
+01_27_NOME_SISTEMA
+Avaí 1 x 0 Atlético-MG
+Botafogo 2 x 0 Coritiba
+Bragantino 1 x 1 Goiás
+Flamengo 1 x 2 Fluminense
+Ceará 0 x 2 São Paulo
+América 1 x 0 Corinthians
+Juventude 1 x 1 Fortaleza
+Palmeiras 1 x 0 Santos
+Athletico-PR 2 x 2 Cuiabá
+Atlético-GO 1 x 2 Internacional
+
+02_27_NOME_Havokdan
+Avaí 2 x 2 Atlético-MG
+Botafogo 2 x 1 Coritiba
+Bragantino 1 x 0 Goiás
+Flamengo 0 x 1 Fluminense
+Ceará 2 x 0 São Paulo
+América 0 x 0 Corinthians
+Juventude 0 x 2 Fortaleza
+Palmeiras 2 x 0 Santos
+Athletico-PR 1 x 1 Cuiabá
+Atlético-GO 0 x 0 Internacional
+
+02_27_NOME_Henrique_Beavis
+Avaí 1 x 1 Atlético-MG
+Botafogo 1 x 0 Coritiba
+Bragantino 2 x 1 Goiás
+Flamengo 4 x 1 Fluminense
+Ceará 1 x 0 São Paulo
+América 1 x 2 Corinthians
+Juventude 2 x 1 Fortaleza
+Palmeiras 2 x 0 Santos
+Athletico-PR 2 x 0 Cuiabá
+Atlético-GO 1 x 1 Internacional
+
+02_27_NOME_NEOMATRIX
+Avaí 1 x 2 Atlético-MG
+Botafogo 1 x 1 Coritiba
+Bragantino 2 x 1 Goiás
+Flamengo 4 x 1 Fluminense
+Ceará 1 x 1 São Paulo
+América 1 x 2 Corinthians
+Juventude 1 x 1 Fortaleza
+Palmeiras 2 x 0 Santos
+Athletico-PR 2 x 1 Cuiabá
+Atlético-GO 1 x 1 Internacional
+
+02_27_NOME_Vei pescador
+Avaí 1 x 1 Atlético-MG
+Botafogo 1 x 0 Coritiba
+Bragantino 0 x 1 Goiás
+Flamengo 3 x 2 Fluminense
+Ceará 1 x 0 São Paulo
+América 0 x 2 Corinthians
+Juventude 1 x 1 Fortaleza
+Palmeiras 3 x 1 Santos
+Athletico-PR 1 x 0 Cuiabá
+Atlético-GO 1 x 2 Internacional
+
+02_27_NOME_yage
+Avaí 1 x 1 Atlético-MG
+Botafogo 1 x 0 Coritiba
+Bragantino 1 x 0 Goiás
+Flamengo 1 x 1 Fluminense
+Ceará 2 x 1 São Paulo
+América 1 x 1 Corinthians
+Juventude 1 x 0 Fortaleza
+Palmeiras 1 x 1 Santos
+Athletico-PR 1 x 0 Cuiabá
+Atlético-GO 1 x 0 Internacional
+
+02_27_NOME_igraum
+Avaí 1 x 2 Atlético-MG
+Botafogo 1 x 0 Coritiba
+Bragantino 1 x 0 Goiás
+Flamengo 1 x 1 Fluminense
+Ceará 2 x 1 São Paulo
+América 0 x 1 Corinthians
+Juventude 1 x 1 Fortaleza
+Palmeiras 1 x 1 Santos
+Athletico-PR 2 x 0 Cuiabá
+Atlético-GO 1 x 1 Internacional
+
+02_27_NOME_Peart
+Avaí 0 x 1 Atlético-MG
+Botafogo 1 x 0 Coritiba
+Bragantino 2 x 2 Goiás
+Flamengo 2 x 1 Fluminense
+Ceará 3 x 2 São Paulo
+América 1 x 1 Corinthians
+Juventude 1 x 2 Fortaleza
+Palmeiras 2 x 0 Santos
+Athletico-PR 3 x 1 Cuiabá
+Atlético-GO 0 x 2 Internacional
+
+02_27_NOME_Spacehead
+Avaí 0 x 2 Atlético-MG
+Botafogo 1 x 0 Coritiba
+Bragantino 2 x 1 Goiás
+Flamengo 2 x 2 Fluminense
+Ceará 2 x 1 São Paulo
+América 1 x 0 Corinthians
+Juventude 1 x 1 Fortaleza
+Palmeiras 2 x 0 Santos
+Athletico-PR 3 x 1 Cuiabá
+Atlético-GO 1 x 1 Internacional
+
+02_27_NOME_kun
+Avaí 0 x 1 Atlético-MG
+Botafogo 1 x 0 Coritiba
+Bragantino 2 x 1 Goiás
+Flamengo 1 x 2 Fluminense
+Ceará 2 x 1 São Paulo
+América 1 x 0 Corinthians
+Juventude 0 x 1 Fortaleza
+Palmeiras 3 x 0 Santos
+Athletico 2 x 1 Cuiabá
+Atlético-GO 0 x 0 Internacional
+
+02_27_NOME_thebigkratos
+Avaí 1 x 2 Atlético-MG
+Botafogo 1 x 0 Coritiba
+Bragantino 2 x 2 Goiás
+Flamengo 4 x 1 Fluminense
+Ceará 2 x 0 São Paulo
+América 0 x 1 Corinthians
+Juventude 0 x 0 Fortaleza
+Palmeiras 2 x 1 Santos
+Athletico-PR 2 x 0 Cuiabá
+Atlético-GO 1 x 2 Internacional
+
+02_27_NOME_tortinhas10
+Avaí 0 x 1 Atlético-MG
+Botafogo 1 x 0 Coritiba
+Bragantino 2 x 0 Goiás
+Flamengo 1 x 0 Fluminense
+Ceará 1 x 1 São Paulo
+América 1 x 1 Corinthians
+Juventude 1 x 1 Fortaleza
+Palmeiras 1 x 1 Santos
+Athletico-PR 1 x 0 Cuiabá
+Atlético-GO 0 x 1 Internacional
+
+02_27_NOME_dotrief kolnit
+Avaí 1 x 2 Atlético-MG
+Botafogo 1 x 0 Coritiba
+Bragantino 2 x 1 Goiás
+Flamengo 1 x 1 Fluminense
+Ceará 1 x 2 São Paulo
+América 1 x 0 Corinthians
+Juventude 0 x 0 Fortaleza
+Palmeiras 2 x 1 Santos
+Athletico-PR 2 x 0 Cuiabá
+Atlético-GO 1 x 1 Internacional
+
+02_27_NOME_redfield jr.
+Botafogo 2 x 0 Coritiba
+Bragantino 1 x 0 Goiás
+Flamengo 2 x 1 Fluminense
+Ceará 1 x 1 São Paulo
+América 1 x 1 Corinthians
+Juventude 1 x 2 Fortaleza
+Palmeiras 1 x 0 Santos
+Athletico-PR 1 x 0 Cuiabá
+Atlético-GO 1 x 1 Internacional
+
+02_27_NOME_ptsousa
+Botafogo 2 x 0 Coritiba
+Bragantino 1 x 1 Goiás
+Flamengo 1 x 1 Fluminense
+Ceará 2 x 1 São Paulo
+América 1 x 1 Corinthians
+Juventude 1 x 3 Fortaleza
+Palmeiras 1 x 0 Santos
+Athletico-PR 1 x 0 Cuiabá
+Atlético-GO 1 x 1 Internacional
+
+02_27_NOME_Ging Freecs1
+Bragantino 2 x 1 Goiás
+Flamengo 2 x 1 Fluminense
+Ceará 2 x 1 São Paulo
+América 1 x 0 Corinthians
+Juventude 1 x 3 Fortaleza
+Palmeiras 2 x 0 Santos
+Athletico-PR 1 x 0 Cuiabá
+Atlético-GO 1 x 1 Internacional
+
+02_27_NOME_cmsnes
+Bragantino 2 x 2 Goiás
+Flamengo 2 x 1 Fluminense
+Ceará 1 x 1 São Paulo
+América 1 x 2 Corinthians
+Juventude 1 x 2 Fortaleza
+Palmeiras 3 x 0 Santos
+Athletico-PR 2 x 0 Cuiabá
+Atlético-GO 1 x 2 Internacional
+
+02_27_NOME_doutordoom
+Flamengo 1 x 2 Fluminense
+Ceará 1 x 1 São Paulo
+América 1 x 0 Corinthians
+Juventude 1 x 1 Fortaleza
+Palmeiras 2 x 0 Santos
+Athletico-PR 2 x 1 Cuiabá
+Atlético-GO 1 x 1 Internacional
+
+FIM

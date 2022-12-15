@@ -1,0 +1,130 @@
+01_36_NOME_SISTEMA
+Fluminense 3 x 1 São Paulo
+Santos 1 x 1 Avaí
+RB Bragantino 1 x 4 América-MG
+Goiás 1 x 0 Juventude
+Corinthians 1 x 0 Ceará
+Internacional 2 x 0 Athletico-PR
+Fortaleza 1 x 1 Atlético-GO
+Coritiba 1 x 0 Flamengo
+Cuiabá 1 x 1 Palmeiras
+Atlético-MG 0 x 0 Botafogo
+
+02_36_NOME_igraum
+Fluminense 2 x 2 São Paulo
+Santos 2 x 1 Avaí
+RB Bragantino 0 x 0 América-MG
+Goiás 2 x 0 Juventude
+Corinthians 3 x 1 Ceará
+Internacional 1 x 1 Athletico-PR
+Fortaleza 2 x 0 Atlético-GO
+Coritiba 1 x 2 Flamengo
+Cuiabá 0 x 1 Palmeiras
+Atlético-MG 2 x 0 Botafogo
+
+02_36_NOME_tortinhas10
+Fluminense 2 x 1 São Paulo
+Santos 2 x 0 Avaí
+RB Bragantino 1 x 0 América-MG
+Goiás 1 x 0 Juventude
+Corinthians 1 x 0 Ceará
+Internacional 1 x 0 Athletico-PR
+Fortaleza 2 x 0 Atlético-GO
+Coritiba 1 x 2 Flamengo
+Cuiabá 1 x 1 Palmeiras
+Atlético-MG 2 x 0 Botafogo
+
+02_36_NOME_Peart
+Fluminense 3 x 2 São Paulo
+Santos 4 x 1 Avaí
+RB Bragantino 2 x 2 América-MG
+Goiás 2 x 0 Juventude
+Corinthians 3 x 1 Ceará
+Internacional 1 x 2 Athletico-PR
+Fortaleza 3 x 0 Atlético-GO
+Coritiba 2 x 2 Flamengo
+Cuiabá 1 x 2 Palmeiras
+Atlético-MG 1 x 2 Botafogo
+
+02_36_NOME_Havokdan
+Fluminense 1 x 1 São Paulo
+Santos 3 x 1 Avaí
+RB Bragantino 2 x 0 América-MG
+Goiás 1 x 0 Juventude
+Corinthians 2 x 0 Ceará
+Internacional 0 x 2 Athletico-PR
+Fortaleza 1 x 0 Atlético-GO
+Coritiba 1 x 0 Flamengo
+Cuiabá 0 x 1 Palmeiras
+Atlético-MG 0 x 0 Botafogo
+
+02_36_NOME_kun
+Fluminense 3 x 1 São Paulo
+Santos 2 x 0 Avaí
+RB Bragantino 2 x 1 América-MG
+Goiás 2 x 0 Juventude
+Corinthians 2 x 0 Ceará
+Internacional 1 x 0 Athletico-PR
+Fortaleza 2 x 1 Atlético-GO
+Coritiba 2 x 1 Flamengo
+Cuiabá 1 x 2 Palmeiras
+Atlético-MG 0 x 0 Botafogo
+
+02_36_NOME_redfield jr.
+Fluminense 1 x 1 São Paulo
+Santos 2 x 1 Avaí
+RB Bragantino 1 x 1 América-MG
+Goiás 1 x 0 Juventude
+Corinthians 2 x 0 Ceará
+Internacional 1 x 0 Athletico-PR
+Fortaleza 2 x 1 Atlético-GO
+Coritiba 1 x 3 Flamengo
+Cuiabá 1 x 2 Palmeiras
+Atlético-MG 1 x 0 Botafogo
+
+02_36_NOME_yage
+Fluminense 2 x 0 São Paulo
+Santos 2 x 1 Avaí
+RB Bragantino 1 x 0 América-MG
+Goiás 1 x 0 Juventude
+Corinthians 3 x 0 Ceará
+Internacional 2 x 1 Athletico-PR
+Fortaleza 1 x 0 Atlético-GO
+Coritiba 1 x 1 Flamengo
+Cuiabá 1 x 2 Palmeiras
+Atlético-MG 1 x 0 Botafogo
+
+02_36_NOME_dotrief kolnit
+RB Bragantino 1 x 0 América-MG
+Goiás 1 x 0 Juventude
+Corinthians 1 x 0 Ceará
+Internacional 2 x 0 Athletico-PR
+Fortaleza 1 x 0 Atlético-GO
+Coritiba 1 x 1 Flamengo
+Cuiabá 1 x 1 Palmeiras
+Atlético-MG 2 x 1 Botafogo
+
+02_36_NOME_Henrique_Beavis
+RB Bragantino 2 x 1 América-MG
+Goiás 2 x 0 Juventude
+Corinthians 3 x 0 Ceará
+Internacional 2 x 1 Athletico-PR
+Fortaleza 1 x 0 Atlético-GO
+Coritiba 2 x 1 Flamengo
+Cuiabá 1 x 3 Palmeiras
+Atlético-MG 2 x 1 Botafogo
+
+02_36_NOME_Vei pescador
+Internacional 2 x 1 Athletico-PR
+Fortaleza 3 x 2 Atlético-GO
+Coritiba 1 x 1 Flamengo
+Cuiabá 2 x 1 Palmeiras
+Atlético-MG 1 x 1 Botafogo
+
+02_36_NOME_ptsousa
+Fortaleza 3 x 1 Atlético-GO
+Coritiba 1 x 1 Flamengo
+Cuiabá 2 x 2 Palmeiras
+Atlético-MG 1 x 2 Botafogo
+
+FIM

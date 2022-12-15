@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinAPP.Utils;
 using Microsoft.VisualBasic;
+using System.IO.Compression;
 
 namespace BOSPPC
 {
@@ -49,17 +50,13 @@ namespace BOSPPC
 				var obj = File.ReadAllText(Database.DBAddress);
 				var rodadas = JsonConvert.DeserializeObject<List<Usuario>>(obj).OrderByDescending(x => x.Rodadas.Count).First().Rodadas;
 
-				//if (rodadas.Any())
-				//{
-				//	relatorioBtn.Visible = true;
-				//}
-
 				foreach (var rodada in rodadas)
 				{
 					stg.AppendLine("Rodada cadastrada - " + rodada.Numero_Rodada);
 				}
 
 				Entrance1.Text = stg.ToString();
+				Entrance1.ScrollToCaret();
 			}
 			catch (Exception)
 			{
@@ -85,14 +82,48 @@ namespace BOSPPC
 
 				if (opf.ShowDialog() == DialogResult.OK)
 				{
-					opf.Filter = "txt files (*.txt)|*.txt|All Files(*.*)|*-*";
-					var arquivo = opf.FileName.Split('\\').LastOrDefault();
+					//opf.Filter = "txt files (*.txt)|*.txt|All Files(*.*)|*-*";
 
+					var arquivo = opf.FileName.Split('\\').LastOrDefault();
 					var formatoArquivo = arquivo.Split('.').LastOrDefault().ToString();
 
 					if (!Validations.FileIsValid(formatoArquivo))
 					{
-						MessageBox.Show("Somente arquivos no formato .TXT são permitidos.");
+						if (formatoArquivo.ToLower().Equals("zip"))
+						{
+							var rodadasPasta = Directory.GetCurrentDirectory() + "//Rodadas";
+							var arquivosDaRodada = new List<string>();
+
+							if (Directory.Exists(rodadasPasta))
+							{
+								arquivosDaRodada = Directory.GetFiles(rodadasPasta).ToList();
+
+								foreach (var rod in arquivosDaRodada)
+								{
+									File.Delete(rod);
+								}
+							}
+							else
+							{
+								Directory.CreateDirectory(rodadasPasta);
+							}
+
+							using (ZipArchive zip = ZipFile.Open(opf.FileName, ZipArchiveMode.Read))
+							{
+								zip.ExtractToDirectory(rodadasPasta);
+								zip.Dispose();
+							}
+
+							arquivosDaRodada = Directory.GetFiles(rodadasPasta).Where(x => x.ToLower().EndsWith(".txt")).ToList();
+
+							foreach (var rod in arquivosDaRodada)
+							{
+								var resultado = File.ReadAllLines(opf.FileName);
+								cvt.AdicionaDataCampo(Entrance1, resultado, velocidadeConv);
+							}
+						}
+
+						MessageBox.Show("Somente arquivos de texto unitários (.txt) ou em conjunto compactados (.zip) são permitidos.");
 					}
 					else
 					{

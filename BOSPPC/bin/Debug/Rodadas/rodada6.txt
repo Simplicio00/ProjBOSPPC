@@ -1,0 +1,248 @@
+01_06_NOME_SISTEMA
+Palmeiras 2 X 1 Bragantino
+Ceará 2 X 2 Flamengo
+Atlético_MG 2 X 0 Atlético_GO
+Internacional 2 X 2 Corinthians
+Fluminense 2 X 1 Athletico_PR
+SAO 2 X 1 Cuiabá
+Coritiba 1 X 0 América_MG
+Botafogo 3 X 1 Fortaleza
+Avaí 1 X 2 Juventude
+Goiás 1 X 0 Santos
+
+02_06_NOME_Guastinha
+Palmeiras 1 X 0 Bragantino
+Ceará 2 X 2 Flamengo
+Atlético_MG 2 X 0 Atlético_GO
+Internacional 2 X 1 Corinthians
+Fluminense 3 X 2 Athletico_PR
+SAO 2 X 1 Cuiabá
+Coritiba 1 X 1 América_MG
+Botafogo 2 X 0 Fortaleza
+Avaí 1 X 0 Juventude
+Goiás 2 X 1 Santos
+
+02_06_NOME_Havokdan
+Palmeiras 2 X 0 Bragantino
+Ceará 1 X 0 Flamengo
+Atlético_MG 0 X 1 Atlético_GO
+Internacional 1 X 1 Corinthians
+Fluminense 1 X 0 Athletico_PR
+SAO 0 X 0 Cuiabá
+Coritiba 1 X 0 América_MG
+Botafogo 2 X 0 Fortaleza
+Avaí 0 X 0 Juventude
+Goiás 0 X 2 Santos
+
+02_06_NOME_cmsnes
+Palmeiras 2 X 1 Bragantino
+Ceará 2 X 0 Flamengo
+Atlético_MG 3 X 1 Atlético_GO
+Internacional 1 X 1 Corinthians
+Fluminense 1 X 1 Athletico_PR
+SAO 2 X 0 Cuiabá
+Coritiba 1 X 2 América_MG
+Botafogo 1 X 0 Fortaleza
+Avaí 2 X 2 Juventude
+Goiás 0 X 0 Santos
+
+02_06_NOME_thebigkratos
+Palmeiras 2 X 1 Bragantino
+Ceará 2 X 2 Flamengo
+Atlético_MG 2 X 0 Atlético_GO
+Internacional 1 X 1 Corinthians
+Fluminense 1 X 0 Athletico_PR
+SAO 3 X 0 Cuiabá
+Coritiba 0 X 1 América_MG
+Botafogo 2 X 1 Fortaleza
+Avaí 0 X 0 Juventude
+Goiás 0 X 1 Santos
+
+02_06_NOME_Ging Freecs1
+Palmeiras 2 X 1 Bragantino
+Ceará 2 X 1 Flamengo
+Atlético_MG 2 X 0 Atlético_GO
+Internacional 2 X 1 Corinthians
+Fluminense 1 X 0 Athletico_PR
+SAO 2 X 0 Cuiabá
+Coritiba 1 X 1 América_MG
+Botafogo 2 X 1 Fortaleza
+Avaí 1 X 0 Juventude
+Goiás 1 X 1 Santos
+
+02_06_NOME_doutordoom
+Palmeiras 2 X 0 Bragantino
+Ceará 2 X 2 Flamengo
+Atlético_MG 2 X 0 Atlético_GO
+Internacional 2 X 1 Corinthians
+Fluminense 2 X 1 Athletico_PR
+SAO 2 X 1 Cuiabá
+Coritiba 2 X 1 América_MG
+Botafogo 2 X 0 Fortaleza
+Avaí 1 X 0 Juventude
+Goiás 2 X 1 Santos
+
+02_06_NOME_Peart
+Palmeiras 3 X 2 Bragantino
+Ceará 3 X 1 Flamengo
+Atlético_MG 2 X 1 Atlético_GO
+Internacional 3 X 2 Corinthians
+Fluminense 2 X 0 Athletico_PR
+SAO 3 X 1 Cuiabá
+Coritiba 2 X 2 América_MG
+Botafogo 1 X 1 Fortaleza
+Avaí 2 X 0 Juventude
+Goiás 1 X 2 Santos
+
+02_06_NOME_NEOMATRIX
+Palmeiras 2 X 1 Bragantino
+Ceará 1 X 2 Flamengo
+Atlético_MG 2 X 0 Atlético_GO
+Internacional 1 X 0 Corinthians
+Fluminense 2 X 1 Athletico_PR
+SAO 1 X 0 Cuiabá
+Coritiba 0 X 0 América_MG
+Botafogo 1 X 0 Fortaleza
+Avaí 1 X 1 Juventude
+Goiás 2 X 2 Santos
+
+02_06_NOME_kun
+Palmeiras 1 X 1 Bragantino
+Ceará 2 X 1 Flamengo
+Atlético_MG 3 X 1 Atlético_GO
+Internacional 1 X 0 Corinthians
+Fluminense 2 X 0 Athletico_PR
+SAO 2 X 0 Cuiabá
+Coritiba 1 X 0 América_MG
+Botafogo 1 X 2 Fortaleza
+Avaí 3 X 0 Juventude
+Goiás 1 X 0 Santos
+
+02_06_NOME_ptsousa
+Palmeiras 2 X 1 Bragantino
+Ceará 4 X 3 Flamengo
+Atlético_MG 1 X 0 Atlético_GO
+Internacional 2 X 1 Corinthians
+Fluminense 2 X 2 Athletico_PR
+SAO 2 X 1 Cuiabá
+Coritiba 1 X 2 América_MG
+Botafogo 2 X 0 Fortaleza
+Avaí 0 X 0 Juventude
+Goiás 1 X 2 Santos
+
+02_06_NOME_Spacehead
+Palmeiras 2 X 1 Bragantino
+Ceará 1 X 1 Flamengo
+Atlético_MG 1 X 0 Atlético_GO
+Internacional 1 X 1 Corinthians
+Fluminense 2 X 1 Athletico_PR
+SAO 2 X 0 Cuiabá
+Coritiba 2 X 0 América_MG
+Botafogo 2 X 0 Fortaleza
+Avaí 0 X 1 Juventude
+Goiás 1 X 1 Santos
+
+02_06_NOME_Henrique_Beavis
+Palmeiras 2 X 0 Bragantino
+Ceará 1 X 2 Flamengo
+Atlético_MG 3 X 0 Atlético_GO
+Internacional 1 X 0 Corinthians
+Fluminense 2 X 0 Athletico_PR
+SAO 4 X 1 Cuiabá
+Coritiba 1 X 0 América_MG
+Botafogo 1 X 1 Fortaleza
+Avaí 2 X 0 Juventude
+Goiás 1 X 1 Santos
+
+02_06_NOME_Andvari
+Palmeiras 1 X 1 Bragantino
+Ceará 2 X 2 Flamengo
+Atlético_MG 2 X 0 Atlético_GO
+Internacional 1 X 1 Corinthians
+Fluminense 2 X 1 Athletico_PR
+SAO 2 X 0 Cuiabá
+Coritiba 1 X 0 América_MG
+Botafogo 2 X 0 Fortaleza
+Avaí 1 X 1 Juventude
+Goiás 1 X 2 Santos
+
+02_06_NOME_igraum
+Palmeiras 3 X 1 Bragantino
+Ceará 2 X 2 Flamengo
+Atlético_MG 2 X 0 Atlético_GO
+Internacional 2 X 1 Corinthians
+Fluminense 1 X 1 Athletico_PR
+SAO 1 X 0 Cuiabá
+Coritiba 3 X 2 América_MG
+Botafogo 2 X 1 Fortaleza
+Avaí 1 X 1 Juventude
+Goiás 1 X 2 Santos
+
+02_06_NOME_yage
+Palmeiras 1 X 1 Bragantino
+Ceará 1 X 0 Flamengo
+Atlético_MG 2 X 0 Atlético_GO
+Internacional 2 X 1 Corinthians
+Fluminense 2 X 1 Athletico_PR
+SAO 2 X 0 Cuiabá
+Coritiba 2 X 0 América_MG
+Botafogo 1 X 0 Fortaleza
+Avaí 1 X 0 Juventude
+Goiás 2 X 1 Santos
+
+02_06_NOME_tortinhas10
+Palmeiras 1 X 1 Bragantino
+Ceará 1 X 1 Flamengo
+Atlético_MG 1 X 0 Atlético_GO
+Internacional 1 X 1 Corinthians
+Fluminense 1 X 0 Athletico_PR
+SAO 2 X 0 Cuiabá
+Coritiba 1 X 0 América_MG
+Botafogo 1 X 0 Fortaleza
+Avaí 1 X 0 Juventude
+Goiás 1 X 1 Santos
+
+02_06_NOME_Vei pescador
+Palmeiras 2 X 1 Bragantino
+Ceará 1 X 1 Flamengo
+Atlético_MG 2 X 1 Atlético_GO
+Internacional 0 X 1 Corinthians
+Fluminense 2 X 0 Athletico_PR
+SAO 1 X 0 Cuiabá
+Coritiba 0 X 0 América_MG
+Botafogo 0 X 0 Fortaleza
+Avaí 1 X 0 Juventude
+Goiás 1 X 2 Santos
+
+02_06_NOME_dotrief kolnit
+Palmeiras 1 X 1 Bragantino
+Ceará 1 X 1 Flamengo
+Atlético_MG 2 X 0 Atlético_GO
+Internacional 1 X 1 Corinthians
+Fluminense 1 X 1 Athletico_PR
+SAO 2 X 0 Cuiabá
+Coritiba 2 X 1 América_MG
+Botafogo 1 X 0 Fortaleza
+Avaí 2 X 0 Juventude
+Goiás 1 X 1 Santos
+
+02_06_NOME_redfield jr.
+Palmeiras 2 X 1 Bragantino
+Ceará 1 X 2 Flamengo
+Atlético_MG 3 X 0 Atlético_GO
+Internacional 1 X 1 Corinthians
+Fluminense 1 X 0 Athletico_PR
+SAO 2 X 1 Cuiabá
+Coritiba 2 X 1 América_MG
+Botafogo 2 X 0 Fortaleza
+Avaí 2 X 1 Juventude
+Goiás 1 X 2 Santos
+
+02_06_NOME_Lu₢as
+SAO 2 X 1 Cuiabá
+Coritiba 2 X 1 América_MG
+Botafogo 2 X 1 Fortaleza
+Avaí 2 X 1 Juventude
+Goiás 2 X 1 Santos
+
+FIM
