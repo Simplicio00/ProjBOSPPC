@@ -15,6 +15,7 @@ using System.Windows.Forms;
 using WinAPP.Utils;
 using Microsoft.VisualBasic;
 using System.IO.Compression;
+using System.Text.RegularExpressions;
 
 namespace BOSPPC
 {
@@ -91,6 +92,7 @@ namespace BOSPPC
 					{
 						if (formatoArquivo.ToLower().Equals("zip"))
 						{
+							var regpontoAutomatico = new Regex(@"\((\d{0,1}) jogo adiado\).txt");
 							var rodadasPasta = Directory.GetCurrentDirectory() + "//Rodadas";
 							var arquivosDaRodada = new List<string>();
 
@@ -114,13 +116,21 @@ namespace BOSPPC
 								zip.Dispose();
 							}
 
-							arquivosDaRodada = Directory.GetFiles(rodadasPasta).Where(x => x.ToLower().EndsWith(".txt")).ToList();
+							arquivosDaRodada = Directory.GetFiles(rodadasPasta).Where(x => x.ToLower().EndsWith(".txt")).OrderBy(x => x.ToLower()).ToList();
 
 							foreach (var rod in arquivosDaRodada)
 							{
-								var resultado = File.ReadAllLines(opf.FileName);
+								var resultado = File.ReadAllLines(rod);
+
+								int.TryParse(regpontoAutomatico.Match(rod).Groups[1].Value, out var aut);
+								Database.BonusRodada = aut;
+
 								cvt.AdicionaDataCampo(Entrance1, resultado, velocidadeConv);
 							}
+
+							relatorioBtn.Visible = true;
+
+							return;
 						}
 
 						MessageBox.Show("Somente arquivos de texto unitários (.txt) ou em conjunto compactados (.zip) são permitidos.");
@@ -209,23 +219,5 @@ namespace BOSPPC
 		{
 
 		}
-
-		//private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
-		//{
-		//	if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
-		//	{
-		//		e.Handled = true;
-		//	}
-		//	else if (ptAutomatico.Text.Trim().Length >= 1)
-		//	{
-		//		e.Handled = true;
-		//	}
-
-		//	if (e.KeyChar == '\b')
-		//	{
-		//		e.Handled = false;
-		//	}
-
-		//}
 	}
 }
