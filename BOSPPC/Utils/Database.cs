@@ -125,25 +125,31 @@ namespace BOSPPC.Utils
 			var objetos = JsonConvert.DeserializeObject<List<Usuario>>(arquivo);
 
 			List<Usuario> objetosRodada = new List<Usuario>();
-
-
-			//melhora para o futuro
-			//if (RodadaOficial.Rodadas.Any())
-			//{
-			//	objetosRodada = objetos.Where(x => x.Rodadas.Exists(a => a.Numero_Rodada == RodadaOficial.Rodadas.LastOrDefault().Numero_Rodada)).ToList();
-			//}
-			//else
-			//{
-			//	//terminar
-			//	var rodadas = objetos.Select(x => x.Rodadas.Select(a => a.Numero_Rodada).ToList()).FirstOrDefault();
-			//}
-
-
+			
+			var partidasRodada = new List<PartF>();
+			var rodadaAtual = RodadaOficial.Rodadas.Last().Numero_Rodada;
+			
 			objetosRodada = objetos.Where(x => x.Rodadas.Exists(a => a.Numero_Rodada == RodadaOficial.Rodadas.LastOrDefault().Numero_Rodada)).ToList();
 
+			objetosRodada.ForEach(x =>
+			{
+				var partidas = x.Rodadas.FirstOrDefault(rod => rod.Numero_Rodada == rodadaAtual).PartidasRodada;
+				partidasRodada.AddRange(partidas);
+			});
+
+			//var rdas = RodadaOficial.Rodadas.FirstOrDefault(x => x.Numero_Rodada == rodadaAtual).PartidasRodada;
+			var partidasAgrupadas = partidasRodada.GroupBy(x => new { x.TimeCasa, x.TimeFora });
+			var pontosColetadosPorPartida = partidasAgrupadas.Select(x => new { 
+																				partida = x.Key.TimeCasa + " X " + x.Key.TimeFora, pontos = x.Sum(rd => rd.PontoColetado), 
+																				placares = x.Where(a => a.PontoColetado == 3).Sum(a => a.PontoColetado - 2),
+																				resultados = x.Where(a => a.PontoColetado == 1).Sum(a => a.PontoColetado),
+																				}).OrderByDescending(x => x.pontos).ToList();
 
 			var pontosTotalRodada = objetosRodada.Select(x => x.Rodadas.LastOrDefault().PartidasRodada.Sum(a => a.PontoColetado)).Sum();
-			var media = (pontosTotalRodada / objetosRodada.Count);
+			var media = (double)pontosTotalRodada / objetosRodada.Count;
+
+			var mediaPlacares = (double)pontosColetadosPorPartida.Sum(x => x.placares) / pontosColetadosPorPartida.Count;
+			var mediaResultados = (double)pontosColetadosPorPartida.Sum(x => x.resultados) / pontosColetadosPorPartida.Count;
 
 			var informacoesCampeonato = objetos.Select(x => new { x.Pontos, usuario = x.NomeUsuario,  x.Placares, x.Resultados }).OrderByDescending(x => x.Pontos).ToList();
 			
@@ -156,25 +162,31 @@ namespace BOSPPC.Utils
 			var porPlacar = objetos.Select(x => new { x.Placares, usuario = x.NomeUsuario }).OrderByDescending(x => x.Placares).ToList();
 			var porResultados = objetos.Select(x => new { x.Resultados, usuario = x.NomeUsuario }).OrderByDescending(x => x.Resultados).ToList();
 
-			//jogo que mais distribuiu pontos
-			//jogo que menos distribuiu pontos
-
 
 			StringBuilder stg = new StringBuilder();
 
 			stg.AppendLine(" RELATÓRIO OFICIAL " + RodadaOficial.Rodadas.LastOrDefault().Numero_Rodada);
 			stg.Append("\n");
-			stg.AppendLine(" MEDIA: " + media);
-			stg.Append("\n");
-			stg.Append("\n");
+			stg.AppendLine(" MEDIA: " + media.ToString("0.0"));
+			stg.AppendLine(" MEDIA PLACARES POR JOGO: " + mediaPlacares.ToString("0.0"));
+			stg.AppendLine(" MEDIA RESULTADOS POR JOGO: " + mediaResultados.ToString("0.0"));
+			stg.AppendLine(" PONTOS DISTRIBUÍDOS POR JOGO:");
+			stg.AppendLine("[spoiler]");
+			pontosColetadosPorPartida.ForEach(x => 
+			{
+				stg.AppendLine($"A partida {x.partida} gerou {x.pontos} pontos! (placares:{x.placares} - resultados:{x.resultados})");
+			});
+			stg.AppendLine("[/spoiler]");
+
 			stg.Append("\n");
 			stg.AppendLine("PONTUADORES DA RODADA");
-			stg.Append("\n");
 			stg.Append("\n");
 
 			if (BonusRodada > 0)
 			{
+				stg.Append("\n");
 				stg.AppendLine($"Obs: Adicionado(s) {BonusRodada} ponto(s) para quem postou");
+				stg.Append("\n");
 			}
 
 			stg.AppendLine("[spoiler]");
@@ -183,7 +195,6 @@ namespace BOSPPC.Utils
 				stg.AppendLine($"{x.usuario} - {x.pontos + BonusRodada} - {x.placares} - {x.resultados}");
 			});
 			stg.AppendLine("[/spoiler]");
-			stg.Append("\n");
 			stg.Append("\n");
 			stg.AppendLine("RANKING");
 			stg.Append("\n");
